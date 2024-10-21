@@ -17,7 +17,7 @@ with open('model2.pkl', 'rb') as f:
 with open('kms-model2.pkl', 'rb') as f:
     model2 = pickle.load(f)
 
-with open('year-model.pkl', 'rb') as f:
+with open('Year-model.pkl', 'rb') as f:
     model3 = pickle.load(f)
 
 # Define a route for prediction
